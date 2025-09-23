@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2025-09-23",
+  "tracks": [
+    {
+      "id": "OPS",
+      "name": "オペレーション",
+      "modules": ["DOC-05-A2", "DOC-05-O2", "DOC-05-Q3"]
+    },
+    {
+      "id": "DEV",
+      "name": "アプリケーション開発",
+      "modules": ["DOC-05-A3", "DOC-05-D3", "DOC-05-Q3"]
+    }
+  ]
+}

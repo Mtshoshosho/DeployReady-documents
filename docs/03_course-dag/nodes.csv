@@ -1,0 +1,7 @@
+node_id,title,summary
+DOC-05-A2,CLIとLogs,基礎的なCLI操作とログの読み方
+DOC-05-A3,Git基礎,Gitの基本操作
+DOC-05-A4,NWとHTTP一次切り分け,ネットワーク基礎とHTTPトラブルシュート
+DOC-05-D3,Backend基礎,バックエンドの基礎開発
+DOC-05-O2,監視の読み方,監視ダッシュボードの活用
+DOC-05-Q3,API回帰自動化,APIテスト自動化の実践

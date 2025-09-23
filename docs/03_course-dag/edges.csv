@@ -1,0 +1,6 @@
+source,target,relationship
+DOC-05-A2,DOC-05-A3,prerequisite
+DOC-05-A3,DOC-05-A4,prerequisite
+DOC-05-A4,DOC-05-D3,prerequisite
+DOC-05-D3,DOC-05-Q3,prerequisite
+DOC-05-A2,DOC-05-O2,related

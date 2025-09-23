@@ -1,0 +1,87 @@
+---
+id: DOC-18
+title: データスキーマ
+version: 1.0.0
+status: Draft
+owner: Data Engineering
+audience: データ, 運営
+upstream: [DOC-06]
+downstream: [DOC-07, DOC-19]
+last_updated: 2025-09-23
+tags:
+  - データ
+  - スキーマ
+---
+
+kpi_metrics:
+  description: KPI 出力用の指標定義
+  fields:
+    - name: learner_id
+      type: string
+      required: true
+      description: 受講者ID（LMSと連携）
+    - name: module_id
+      type: string
+      required: true
+      description: モジュール識別子（DOC-05 と一致）
+    - name: metric_date
+      type: date
+      required: true
+      description: 計測日（YYYY-MM-DD）
+    - name: metric_value
+      type: number
+      required: true
+      description: 指標値（0-100）
+    - name: metric_type
+      type: enum
+      required: true
+      description: 指標カテゴリ（progress/completion/readiness 等）
+  refresh_cadence: daily
+  primary_key: [learner_id, module_id, metric_date, metric_type]
+
+artifacts:
+  description: 成果物／評価メタデータ
+  fields:
+    - name: artifact_id
+      type: string
+      required: true
+      description: 成果物ID
+    - name: learner_id
+      type: string
+      required: true
+      description: 受講者ID
+    - name: module_id
+      type: string
+      required: true
+      description: モジュール識別子
+    - name: score
+      type: number
+      required: false
+      description: 評価スコア（0-100）
+    - name: status
+      type: enum
+      required: true
+      description: ステータス（submitted/reviewed/approved/rejected）
+  refresh_cadence: realtime
+  primary_key: [artifact_id]
+
+samples:
+  - dataset: kpi_metrics
+    example:
+      learner_id: L0001
+      module_id: MOD-A2
+      metric_date: 2025-09-01
+      metric_value: 82.5
+      metric_type: readiness
+  - dataset: artifacts
+    example:
+      artifact_id: ART-1001
+      learner_id: L0001
+      module_id: MOD-A2
+      score: 85
+      status: approved
+
+interfaces:
+  ingestion: s3://path/to/bucket
+  warehouse: bigquery::deployready.analytics
+  export: dashboards/
