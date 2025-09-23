@@ -11,7 +11,7 @@
 **更新手順**：
 1. 市場/プロダクト変更点を Issue で整理
 2. 本文の Frontmatter を更新（version/last_updated）
-3. `docs/DOC-INDEX.md` と README のリンクを更新
+3. `../DOC-INDEX.md` と README のリンクを更新
 4. 営業資料（DOC-12）との整合を確認
 
 **チェックリスト**：

@@ -11,7 +11,7 @@
 **更新手順**：
 1. モジュール改訂案を Issue でレビュー
 2. 対象カードの Frontmatter と本文を更新
-3. `docs/DOC-INDEX.md` と該当 README のリンクを更新
+3. `../DOC-INDEX.md` と該当 README のリンクを更新
 4. 評価・運用チームへ変更通知
 
 **チェックリスト**：

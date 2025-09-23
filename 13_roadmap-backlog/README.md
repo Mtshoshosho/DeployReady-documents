@@ -9,7 +9,7 @@
 
 **更新手順**：
 1. 四半期レビューで変更を決定し Issue 化
-2. 本文 Frontmatter を更新し、`docs/DOC-INDEX.md` を反映
+2. 本文 Frontmatter を更新し、`../DOC-INDEX.md` を反映
 3. バックログの担当・期日を最新化
 4. 関係チームへアナウンス
 

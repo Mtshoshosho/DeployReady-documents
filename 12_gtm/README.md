@@ -11,7 +11,7 @@
 **更新手順**：
 1. 市場メッセージ変更を営業と合意し Issue 化
 2. 本文とテンプレを更新、Frontmatter を調整
-3. `docs/DOC-INDEX.md` と README のリンクを更新
+3. `../DOC-INDEX.md` と README のリンクを更新
 4. 価格・契約（DOC-08）との整合確認
 
 **チェックリスト**：

@@ -4,13 +4,13 @@
 **主要ファイル**：  
 - DOC-17_ドキュメント作法_v1.0.md
 
-**上流（Upstream）**：docs/00_get-started/README.md
+**上流（Upstream）**：../00_get-started/README.md
 **下流（Downstream）**：全ドキュメント
 
 **更新手順**：
 1. 編集方針の変更案を Issue でレビュー
 2. 本文を更新し Frontmatter を調整
-3. `docs/DOC-INDEX.md` と関連リンクを更新
+3. `../DOC-INDEX.md` と関連リンクを更新
 4. 編集者向けに変更周知
 
 **チェックリスト**：

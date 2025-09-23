@@ -12,7 +12,7 @@
 **更新手順**：
 1. 新規モジュールや依存変更を Issue で定義
 2. CSV を更新し、Mermaid（dag.mmd）を再生成
-3. 本文 Frontmatter を更新し、`docs/DOC-INDEX.md` を反映
+3. 本文 Frontmatter を更新し、`../DOC-INDEX.md` を反映
 4. リンクマトリクス・モジュールカードに影響有無を通知
 
 **チェックリスト**：

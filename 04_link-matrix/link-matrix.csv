@@ -1,7 +1,7 @@
 module_id,title,prereqs,shared_templates,shared_exercises,assessment_refs,upstream_docs,downstream_docs
-DOC-05-A2,CLIとLogs,,Runbook_テンプレート.md,,RUBRIC-OPS-CLI,DOC-02|DOC-03,DOC-06|DOC-09
-DOC-05-A3,Git基礎,DOC-05-A2,,Gitリポジトリ演習,RUBRIC-DEV-CRUD,DOC-02|DOC-03,DOC-06|DOC-09
-DOC-05-A4,NWとHTTP一次切り分け,DOC-05-A3,,HTTPデバッグ演習,RUBRIC-OPS-MON,DOC-02|DOC-03,DOC-06|DOC-09
-DOC-05-D3,Backend基礎,DOC-05-A4,PR_テンプレート.md,CRUDミニプロジェクト,RUBRIC-DEV-CRUD,DOC-02|DOC-03,DOC-06|DOC-09
-DOC-05-O2,監視の読み方,DOC-05-A2,Runbook_テンプレート.md,監視ダッシュボード演習,RUBRIC-OPS-MON,DOC-02|DOC-03,DOC-06|DOC-09
-DOC-05-Q3,API回帰自動化,DOC-05-D3,threshold_table_template.csv,API自動テスト演習,RUBRIC-DEV-CRUD,DOC-02|DOC-03,DOC-06|DOC-09
+A2,CLIとLogs,"A1","Runbook_テンプレート.md;一次報告_テンプレート.md","5xx抽出CSV;journalctl期間絞り;cron化","R-OPS-CLI;実技30分OPS","DOC-02;DOC-03","DOC-05;DOC-06;DOC-11"
+A3,Git基礎,"A1","PR_テンプレート.md","PR作成;レビュー依頼;リリースノート作成","R-DEV-CRUD;レビュー品質","DOC-02;DOC-03","DOC-05;DOC-06;DOC-12"
+A4,NWとHTTP一次切り分け,"A2","一次報告_テンプレート.md","ping/traceroute/nslookup;HTTPステータス診断","実技30分OPS","DOC-02;DOC-03","DOC-05;DOC-06;DOC-11"
+D3,Backend基礎(TS+Express),"D1;D2;A3;A7","PR_テンプレート.md","CRUD実装;例外/ログ規約;Postman→CI","R-DEV-CRUD;実技30分DEV","DOC-02;DOC-03","DOC-05;DOC-06;DOC-11"
+O2,監視/可観測性の読み方,"O1;A6;A7","threshold_table_template.csv;Runbook_テンプレート.md","CPU高騰→一次対応;404スパイク読解","R-OPS-MON;実技30分OPS","DOC-02;DOC-03","DOC-05;DOC-06;DOC-11"
+Q3,API回帰自動化,"Q1;Q2;A3;A7","PR_テンプレート.md;欠陥票_テンプレート.md","Newmanレポート;CIアーティファクト保存","実技30分QA","DOC-02;DOC-03","DOC-05;DOC-06;DOC-11"

@@ -12,7 +12,7 @@
 **更新手順**：
 1. 評価方針や結果をレビューし Issue にまとめる
 2. 本文・ルーブリックを更新し Frontmatter を調整
-3. `docs/DOC-INDEX.md` と関連 README を更新
+3. `../DOC-INDEX.md` と関連 README を更新
 4. KPI（DOC-07）と Readiness Index（DOC-19）の整合を確認
 
 **チェックリスト**：
