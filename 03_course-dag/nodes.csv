@@ -1,7 +1,36 @@
-node_id,title,summary
-DOC-05-A2,CLIとLogs,基礎的なCLI操作とログの読み方
-DOC-05-A3,Git基礎,Gitの基本操作
-DOC-05-A4,NWとHTTP一次切り分け,ネットワーク基礎とHTTPトラブルシュート
-DOC-05-D3,Backend基礎,バックエンドの基礎開発
-DOC-05-O2,監視の読み方,監視ダッシュボードの活用
-DOC-05-Q3,API回帰自動化,APIテスト自動化の実践
+id,title,layer,track,description
+START,スタート,meta,meta,学習経路全体の開始点
+A1,ITSMライトと報連相,A,core,現場での報連相とITSM基礎を身につける
+A2,CLIとLogs,A,core,CLI操作とログ調査の型を習得する
+A3,Git/GitHub基礎,A,core,GitとPull Request運用の基本を学ぶ
+A4,NW/HTTP一次切り分け,A,core,ネットワークとHTTPの一次対応を理解する
+A5,ドキュメントとコミュニケーション,A,core,文書化と情報共有の基本スキルを学ぶå
+A6,Office自動化ミニ,A,core,スプレッドシート等の自動化で省力化する
+A7,AI活用ガイドライン,A,core,AI活用におけるルールと実践を知る
+O1,O1 Linux運用,B,OPS,Linuxサーバ運用の基礎手順に慣れる
+O2,O2 監視/可観測性の読み方,B,OPS,監視データを読み解き対応方針を判断する
+O3,O3 WindowsとPowerShell,B,OPS,Windows運用とPowerShell活用を学ぶ
+D1,D1 HTTP/RESTとAPIツール,B,DEV,API通信とツール操作の実践力を付ける
+D2,D2 Front基礎(HTML/CSS/TS),B,DEV,フロントエンドの基礎を理解する
+D3,D3 Backend基礎(TS+Express),B,DEV,バックエンドAPI実装の基本を学ぶ
+D4,D4 DataとSQL,B,DEV,データモデリングとSQLの基礎を習得する
+D5,D5 認証の最小実装,B,DEV,認証と権限付与の最小構成を実装する
+Q1,Q1 テスト設計,B,QA,テストケース設計の基本を身につける
+Q2,Q2 欠陥票/証跡,B,QA,欠陥管理と証跡の残し方を学ぶ
+Q3,Q3 API回帰自動化,B,QA,APIテストの自動化パイプラインを構築する
+FS1,FS1 キッティング/資産管理,B,FIELD,フィールドサービスの資産管理を習熟する
+FS2,FS2 安全手順/配線,B,FIELD,現場での安全手順と配線作業を理解する
+FS3,FS3 現地NW確認,B,FIELD,現地ネットワーク調査と改善提案を行う
+PM1,PM1 チケット/進捗会議の型,B,PMO,チケット駆動の進捗管理を理解する
+PM2,PM2 議事録からToDo化,B,PMO,会議記録をアクションに転換する
+C1,C1 SRE-lite,C,scale,スケーラビリティを意識した運用設計を学ぶ
+C2,C2 IaC(Terraform 1環境),C,scale,インフラ自動化で環境をコード管理する
+C3,C3 CI/CD 拡張,C,scale,CI/CDを高度化して品質と頻度を両立する
+C4,C4 Observability設計,C,scale,監視設計の高度化とアラート設計を行う
+C5,C5 英語運用,C,scale,英語での運用コミュニケーション力を鍛える
+XOPS,C-OPS Runbook + Monitoring,capstone,OPS,Opsトラックの統合成果をまとめる
+XDEV,C-DEV Mini CRM,capstone,DEV,Devトラックの最終成果物を完成させる
+XQA,C-QA Test Suite + Regression,capstone,QA,QAトラックの最終試験を構築する
+XFIELD,C-FIELD Onsite Deployment,capstone,FIELD,Fieldトラックの最終提案を仕上げる
+XPMO,C-PMO Weekly Pack,capstone,PMO,PMOトラックの週次報告をまとめる
+OUT,アウトカム,meta,meta,配属可否とスケール解放の判断に到達する
