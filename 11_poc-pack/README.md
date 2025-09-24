@@ -5,17 +5,17 @@
 - DOC-11_PoCパック_v1.0.md  
 - PoC オンボーディング資料（追加予定）
 
-**上流（Upstream）**：DOC-01, DOC-02, DOC-07
-**下流（Downstream）**：DOC-12, 運用 SOP
+**上流（Upstream）**：[DOC-01](../01_service-overview/DOC-01_サービス全体像_v1.0.md), [DOC-02](../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md), [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md)
+**下流（Downstream）**：[DOC-12](../12_gtm/DOC-12_GTM_営業資料_v1.0.md), 運用 SOP
 
 **更新手順**：
 1. PoC 成果と改善点を分析し Issue 化
 2. 本文と Frontmatter を更新し索引へ反映
-3. 営業資料（DOC-12）とメッセージ整合を確認
+3. 営業資料（[DOC-12](../12_gtm/DOC-12_GTM_営業資料_v1.0.md)）とメッセージ整合を確認
 4. 運用チームへ変更内容を共有
 
 **チェックリスト**：
 - [ ] 見出し構造（H2開始）  
 - [ ] 上流/下流リンクが有効  
-- [ ] 用語は DOC-20 と一致  
+- [ ] 用語は [DOC-20](../20_glossary/DOC-20_用語集_v1.0.md) と一致  
 - [ ] 成功基準/撤退条件が最新

@@ -24,5 +24,5 @@ tags: [評価]
 ## 6. レビュー/再提出ポリシー
 
 ---
-**上流**：DOC-02, DOC-03, DOC-04, DOC-05  
-**下流**：DOC-07, DOC-09, DOC-19
+**上流**：[DOC-02](../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md), [DOC-03](../03_course-dag/DOC-03_コースDAG_依存関係図_v1.0.md), [DOC-04](../04_link-matrix/DOC-04_リンクマトリクス_v1.0.md), [DOC-05](../05_module-cards/README.md)  
+**下流**：[DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md), [DOC-09](../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md), [DOC-19](../19_readiness-index/DOC-19_ReadinessIndex仕様_v1.0.md)

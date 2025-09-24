@@ -20,7 +20,7 @@ downstream: []
 
 ## チェックリスト
 - [ ] Frontmatter を更新（version / last_updated）
-- [ ] 用語集（DOC-20）を確認
+- [ ] 用語集（[DOC-20](../20_glossary/DOC-20_用語集_v1.0.md)）を確認
 - [ ] 自動化が壊れていないことを確認
 
 ---

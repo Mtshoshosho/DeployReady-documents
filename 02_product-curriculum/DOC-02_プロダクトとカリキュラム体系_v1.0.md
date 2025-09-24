@@ -26,5 +26,5 @@ tags: [教育設計]
 ## 7. 変更管理（互換/バージョン方針）
 
 ---
-**上流**：DOC-01  
-**下流**：DOC-03, DOC-04, DOC-05, DOC-06, DOC-09
+**上流**：[DOC-01](../01_service-overview/DOC-01_サービス全体像_v1.0.md)  
+**下流**：[DOC-03](../03_course-dag/DOC-03_コースDAG_依存関係図_v1.0.md), [DOC-04](../04_link-matrix/DOC-04_リンクマトリクス_v1.0.md), [DOC-05](../05_module-cards/README.md), [DOC-06](../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md), [DOC-09](../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md)

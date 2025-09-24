@@ -4,7 +4,7 @@
 **主要ファイル**：  
 - DOC-14_リスクと対策_v1.0.md
 
-**上流（Upstream）**：DOC-01, DOC-09, DOC-10
+**上流（Upstream）**：[DOC-01](../01_service-overview/DOC-01_サービス全体像_v1.0.md), [DOC-09](../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md), [DOC-10](../10_governance-security/DOC-10_ガバナンスとセキュリティ_v1.0.md)
 **下流（Downstream）**：経営会議資料、運用 SOP
 
 **更新手順**：
@@ -16,5 +16,5 @@
 **チェックリスト**：
 - [ ] 見出し構造（H2開始）  
 - [ ] 上流/下流リンクが有効  
-- [ ] 用語は DOC-20 と一致  
+- [ ] 用語は [DOC-20](../20_glossary/DOC-20_用語集_v1.0.md) と一致  
 - [ ] 対応計画が最新

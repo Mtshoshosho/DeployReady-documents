@@ -20,5 +20,5 @@ tags: [営業]
 ## 4. FAQ（導入/費用/工数）
 
 ---
-**上流**：DOC-01, DOC-07, DOC-08, DOC-11  
+**上流**：[DOC-01](../01_service-overview/DOC-01_サービス全体像_v1.0.md), [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md), [DOC-08](../08_pricing-contract/DOC-08_価格と契約_v1.0.md), [DOC-11](../11_poc-pack/DOC-11_PoCパック_v1.0.md)  
 **下流**：提案デッキ

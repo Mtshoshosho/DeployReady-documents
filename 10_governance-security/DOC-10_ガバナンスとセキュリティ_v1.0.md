@@ -24,5 +24,5 @@ tags: [セキュリティ, ガバナンス]
 ## 6. 監査/ログ保持
 
 ---
-**上流**：DOC-01, DOC-07  
-**下流**：DOC-14, 運用SOP
+**上流**：[DOC-01](../01_service-overview/DOC-01_サービス全体像_v1.0.md), [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md)  
+**下流**：[DOC-14](../14_risk-mitigation/DOC-14_リスクと対策_v1.0.md), 運用SOP

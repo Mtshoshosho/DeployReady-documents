@@ -22,5 +22,5 @@ tags: [教育設計, モジュール管理]
 ## 5. 更新手順（新規モジュール追加時）
 
 ---
-**上流**：DOC-02  
-**下流**：DOC-04, DOC-05, DOC-06
+**上流**：[DOC-02](../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md)  
+**下流**：[DOC-04](../04_link-matrix/DOC-04_リンクマトリクス_v1.0.md), [DOC-05](../05_module-cards/README.md), [DOC-06](../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md)

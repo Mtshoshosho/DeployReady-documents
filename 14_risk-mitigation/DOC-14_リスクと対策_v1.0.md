@@ -20,5 +20,5 @@ tags: [リスク管理]
 ## 4. レビューサイクル
 
 ---
-**上流**：DOC-01, DOC-09, DOC-10  
+**上流**：[DOC-01](../01_service-overview/DOC-01_サービス全体像_v1.0.md), [DOC-09](../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md), [DOC-10](../10_governance-security/DOC-10_ガバナンスとセキュリティ_v1.0.md)  
 **下流**：運用SOP

@@ -24,5 +24,5 @@ tags: [監視]
 ## リスクと想定Q&A
 
 ---
-**上流**：DOC-02, DOC-03  
-**下流**：DOC-06, DOC-09
+**上流**：[DOC-02](../../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md), [DOC-03](../../03_course-dag/DOC-03_コースDAG_依存関係図_v1.0.md)  
+**下流**：[DOC-06](../../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md), [DOC-09](../../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md)

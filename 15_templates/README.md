@@ -8,7 +8,7 @@
 - 欠陥票_テンプレート.md  
 - threshold_table_template.csv
 
-**上流（Upstream）**：DOC-09, DOC-14
+**上流（Upstream）**：[DOC-09](../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md), [DOC-14](../14_risk-mitigation/DOC-14_リスクと対策_v1.0.md)
 **下流（Downstream）**：各運用ドキュメント、営業資料
 
 **更新手順**：
@@ -20,5 +20,5 @@
 **チェックリスト**：
 - [ ] 見出し構造（H2開始）  
 - [ ] 上流/下流リンクが有効  
-- [ ] 用語は DOC-20 と一致  
+- [ ] 用語は [DOC-20](../20_glossary/DOC-20_用語集_v1.0.md) と一致  
 - [ ] CSV のフォーマット確認

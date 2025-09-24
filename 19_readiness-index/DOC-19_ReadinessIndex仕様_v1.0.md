@@ -20,5 +20,5 @@ tags: [指標]
 ## 4. 互換性（変更時の扱い）
 
 ---
-**上流**：DOC-06, DOC-07, DOC-18  
+**上流**：[DOC-06](../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md), [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md), [DOC-18](../18_data-schema/DOC-18_データスキーマ_v1.0.yaml)  
 **下流**：営業資料, KPIレポート

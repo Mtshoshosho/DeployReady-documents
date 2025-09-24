@@ -6,8 +6,8 @@
 - dag.mmd（Mermaid DAG）  
 - nodes.csv／edges.csv（データソース）
 
-**上流（Upstream）**：DOC-02
-**下流（Downstream）**：DOC-04, DOC-05, DOC-06
+**上流（Upstream）**：[DOC-02](../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md)
+**下流（Downstream）**：[DOC-04](../04_link-matrix/DOC-04_リンクマトリクス_v1.0.md), [DOC-05](../05_module-cards/README.md), [DOC-06](../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md)
 
 **更新手順**：
 1. 新規モジュールや依存変更を Issue で定義
@@ -18,5 +18,5 @@
 **チェックリスト**：
 - [ ] 見出し構造（H2開始）  
 - [ ] 上流/下流リンクが有効  
-- [ ] 用語は DOC-20 と一致  
+- [ ] 用語は [DOC-20](../20_glossary/DOC-20_用語集_v1.0.md) と一致  
 - [ ] CSV と Mermaid の整合が取れている

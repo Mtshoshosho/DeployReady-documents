@@ -19,11 +19,11 @@
 ## 1) マイルストーン
 
 - **M0 Repo基盤整備**：docs階層フラット化・README導線・Frontmatter整備（P0）
-- **M1 基本設計v1**：DOC-01〜04の完成（DAG/リンクマトリクス含む）（P0）
-- **M2 学習品質v1**：DOC-05優先6カード・DOC-06ルーブリック（P0）
-- **M3 可視化v1**：DOC-07 KPI・DOC-19 RI仕様（P1）
-- **M4 PoC販売v1**：DOC-11 PoCパック・DOC-12 GTM・DOC-08 価格（P1）
-- **M5 運用/ガバナンスv1**：DOC-09, DOC-10, テンプレ群（P1）
+- **M1 基本設計v1**：[DOC-01](01_service-overview/DOC-01_サービス全体像_v1.0.md)〜04の完成（DAG/リンクマトリクス含む）（P0）
+- **M2 学習品質v1**：[DOC-05](05_module-cards/README.md)優先6カード・[DOC-06](06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md)ルーブリック（P0）
+- **M3 可視化v1**：[DOC-07](07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md) KPI・[DOC-19](19_readiness-index/DOC-19_ReadinessIndex仕様_v1.0.md) RI仕様（P1）
+- **M4 PoC販売v1**：[DOC-11](11_poc-pack/DOC-11_PoCパック_v1.0.md) PoCパック・[DOC-12](12_gtm/DOC-12_GTM_営業資料_v1.0.md) GTM・[DOC-08](08_pricing-contract/DOC-08_価格と契約_v1.0.md) 価格（P1）
+- **M5 運用/ガバナンスv1**：[DOC-09](09_delivery-ops/DOC-09_デリバリー運用_v1.0.md), [DOC-10](10_governance-security/DOC-10_ガバナンスとセキュリティ_v1.0.md), テンプレ群（P1）
 - **M6 v1.0 Freeze**：索引更新・相互リンク・CHANGELOG確定（P1）
 
 ---
@@ -33,20 +33,20 @@
 | ID | タイトル | Owner | 期限 | 依存 | DoD | 状態 |
 |---|---|---|---|---|---|---|
 | T-001 | `docs/docs` のフラット化（パス修正含む） | リポ管理 | YYYY-MM-DD | なし | `docs/docs/*` を `docs/` へ移動、`docs/docs/` 参照を全置換、リンク切れ0 | ☐ |
-| T-002 | ルート `docs/README.md` 導線の設置/更新 | 教育設計 | YYYY-MM-DD | T-001 | 目的別リンクが全て200で開く（DOC-01/02/03/04/05/06/07/09/15/20） | ☐ |
+| T-002 | ルート `docs/README.md` 導線の設置/更新 | 教育設計 | YYYY-MM-DD | T-001 | 目的別リンクが全て200で開く（[DOC-01](01_service-overview/DOC-01_サービス全体像_v1.0.md)/02/03/04/05/06/07/09/15/20） | ☐ |
 | T-003 | `.gitattributes`/`.editorconfig` をリポ直下に追加 | リポ管理 | YYYY-MM-DD | なし | ファイル追加、改行LF、UTF-8、PRで確認済 | ☐ |
-| T-004 | Frontmatter一括点検（id/title/version…） | 教育設計 | YYYY-MM-DD | T-001 | DOC-01〜20 全てのmdにFrontmatterあり、未記入0 | ☐ |
+| T-004 | Frontmatter一括点検（id/title/version…） | 教育設計 | YYYY-MM-DD | T-001 | [DOC-01](01_service-overview/DOC-01_サービス全体像_v1.0.md)〜20 全てのmdにFrontmatterあり、未記入0 | ☐ |
 | T-005 | `03_course-dag/dag.mmd` の互換版差し替え | 教育設計 | YYYY-MM-DD | - | Mermaidがエラーなしで描画、ノード/エッジ数を `nodes.csv/edges.csv` と一致 | ☐ |
 | T-006 | `03_course-dag/nodes.csv`/`edges.csv` 初期投入 | 教育設計 | YYYY-MM-DD | T-005 | CSVに全ノード＆依存が登録、重複/循環0、簡易スクリプトで整合チェック | ☐ |
 | T-007 | `04_link-matrix/link-matrix.csv` に**優先6**入力 | 教育設計 | YYYY-MM-DD | T-005 | A2/A3/A4/D3/O2/Q3 の行が埋まり、テンプレ/評価リンクあり | ☐ |
 | T-008 | モジュールカード**優先6**の肉付け（LO/演習/配点） | 教育設計 | YYYY-MM-DD | T-007 | 各カードに LO≥3/演習≥3/配点/成果物/リスク を記載 | ☐ |
-| T-009 | ルーブリック（R-OPS-CLI / R-DEV-CRUD / R-OPS-MON） | 教育設計 | YYYY-MM-DD | T-008 | 4段階×3〜4基準、配点と合否ラインを明記、DOC-06に反映 | ☐ |
-| T-010 | DOC-01 全体像レビュー反映（営業目線強化） | 営業/事業 | YYYY-MM-DD | - | Before/After指標を明記、PoC→本導入の導線を太字で追記 | ☐ |
-| T-011 | DOC-02 層/ゲート fix（Gate-A/B/Scale定義） | 教育設計 | YYYY-MM-DD | - | Gateの合格条件を数値化（例：課題完了≥80% 等） | ☐ |
-| T-012 | DOC-06 配点表（100点法）と実技30分仕様 | 教育設計 | YYYY-MM-DD | T-009 | 配点表/閾値（70/80）、実技入退室/採点/NG行為を明文化 | ☐ |
-| T-013 | DOC-07 KPI 定義の雛形差し込み | 運営/事業 | YYYY-MM-DD | T-012 | 学習KPI/事業KPI/更新頻度を表で定義、CSV列定義の雛形作成 | ☐ |
-| T-014 | DOC-11 PoCパック（4週計画と提出物）初版 | 営業/運営 | YYYY-MM-DD | T-012/T-013 | 週次表（目的/提出物/評価/営業移行）が埋まる | ☐ |
-| T-015 | DOC-15 テンプレの最小加筆（空欄除去） | 教育設計 | YYYY-MM-DD | - | Runbook/一次報告/PR/欠陥票/しきい値にサンプル1行ずつ | ☐ |
+| T-009 | ルーブリック（R-OPS-CLI / R-DEV-CRUD / R-OPS-MON） | 教育設計 | YYYY-MM-DD | T-008 | 4段階×3〜4基準、配点と合否ラインを明記、[DOC-06](06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md)に反映 | ☐ |
+| T-010 | [DOC-01](01_service-overview/DOC-01_サービス全体像_v1.0.md) 全体像レビュー反映（営業目線強化） | 営業/事業 | YYYY-MM-DD | - | Before/After指標を明記、PoC→本導入の導線を太字で追記 | ☐ |
+| T-011 | [DOC-02](02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md) 層/ゲート fix（Gate-A/B/Scale定義） | 教育設計 | YYYY-MM-DD | - | Gateの合格条件を数値化（例：課題完了≥80% 等） | ☐ |
+| T-012 | [DOC-06](06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md) 配点表（100点法）と実技30分仕様 | 教育設計 | YYYY-MM-DD | T-009 | 配点表/閾値（70/80）、実技入退室/採点/NG行為を明文化 | ☐ |
+| T-013 | [DOC-07](07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md) KPI 定義の雛形差し込み | 運営/事業 | YYYY-MM-DD | T-012 | 学習KPI/事業KPI/更新頻度を表で定義、CSV列定義の雛形作成 | ☐ |
+| T-014 | [DOC-11](11_poc-pack/DOC-11_PoCパック_v1.0.md) PoCパック（4週計画と提出物）初版 | 営業/運営 | YYYY-MM-DD | T-012/T-013 | 週次表（目的/提出物/評価/営業移行）が埋まる | ☐ |
+| T-015 | [DOC-15](15_templates/README.md) テンプレの最小加筆（空欄除去） | 教育設計 | YYYY-MM-DD | - | Runbook/一次報告/PR/欠陥票/しきい値にサンプル1行ずつ | ☐ |
 
 ---
 
@@ -54,17 +54,17 @@
 
 | ID | タイトル | Owner | 期限 | 依存 | DoD | 状態 |
 |---|---|---|---|---|---|---|
-| T-101 | DOC-07 ダッシュボード構成案（指標→カード） | 運営/データ | YYYY-MM-DD | T-013 | 指標ごとにカード定義（視点/粒度/更新頻度）、サンプル画像参照先 | ☐ |
-| T-102 | DOC-19 Readiness Index 仕様（式・重み・閾値） | 教育/営業 | YYYY-MM-DD | T-012/T-013 | RI算式をYAML化、配属推奨≥75/スケール≥85 の根拠説明 | ☐ |
-| T-103 | DOC-09 デリバリーフロー図（Mermaid）3本 | 運営/CS | YYYY-MM-DD | - | 登録→学習→提出→レポ→修了 の図、SOPリンク済 | ☐ |
-| T-104 | DOC-10 ガバナンス&セキュリティ初版 | 法務/運営 | YYYY-MM-DD | - | データ分類/IAM/暗号化/派遣法/インシデント手順を章立て通り反映 | ☐ |
-| T-105 | DOC-08 価格・契約のFAQ/交渉想定Q&A | 営業/法務 | YYYY-MM-DD | - | 値引/スコープ/成果物/支払サイト等のQ&A 10項目 | ☐ |
-| T-106 | DOC-12 1枚提案のモジュール（テキスト） | 営業/広報 | YYYY-MM-DD | T-014 | キャッチ/Before-After/KPI例/価格/導入手順の箇条書き版 | ☐ |
-| T-107 | DOC-05 残りモジュールのカード着手（各3本） | 教育設計 | YYYY-MM-DD | - | 各トラックで最低3カード埋め、テンプレ準拠 | ☐ |
-| T-108 | DOC-16 オンボーディング全文 | 運営/CS | YYYY-MM-DD | - | 受講者/企業担当の双方ガイドにQA 10項目 | ☐ |
-| T-109 | DOC-20 用語集 初期30語 | 教育/運営 | YYYY-MM-DD | - | 用語/定義/出典の表（30行以上） | ☐ |
-| T-110 | DOC-06 quizzes/practicals サンプル2本ずつ | 教育設計 | YYYY-MM-DD | T-012 | 小テスト2本、実技30分課題2本、採点例あり | ☐ |
-| T-111 | 相互リンクの整備（上流/下流） | 全体 | YYYY-MM-DD | - | DOC-01〜14の末尾に上流/下流リンク、リンク切れ0 | ☐ |
+| T-101 | [DOC-07](07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md) ダッシュボード構成案（指標→カード） | 運営/データ | YYYY-MM-DD | T-013 | 指標ごとにカード定義（視点/粒度/更新頻度）、サンプル画像参照先 | ☐ |
+| T-102 | [DOC-19](19_readiness-index/DOC-19_ReadinessIndex仕様_v1.0.md) Readiness Index 仕様（式・重み・閾値） | 教育/営業 | YYYY-MM-DD | T-012/T-013 | RI算式をYAML化、配属推奨≥75/スケール≥85 の根拠説明 | ☐ |
+| T-103 | [DOC-09](09_delivery-ops/DOC-09_デリバリー運用_v1.0.md) デリバリーフロー図（Mermaid）3本 | 運営/CS | YYYY-MM-DD | - | 登録→学習→提出→レポ→修了 の図、SOPリンク済 | ☐ |
+| T-104 | [DOC-10](10_governance-security/DOC-10_ガバナンスとセキュリティ_v1.0.md) ガバナンス&セキュリティ初版 | 法務/運営 | YYYY-MM-DD | - | データ分類/IAM/暗号化/派遣法/インシデント手順を章立て通り反映 | ☐ |
+| T-105 | [DOC-08](08_pricing-contract/DOC-08_価格と契約_v1.0.md) 価格・契約のFAQ/交渉想定Q&A | 営業/法務 | YYYY-MM-DD | - | 値引/スコープ/成果物/支払サイト等のQ&A 10項目 | ☐ |
+| T-106 | [DOC-12](12_gtm/DOC-12_GTM_営業資料_v1.0.md) 1枚提案のモジュール（テキスト） | 営業/広報 | YYYY-MM-DD | T-014 | キャッチ/Before-After/KPI例/価格/導入手順の箇条書き版 | ☐ |
+| T-107 | [DOC-05](05_module-cards/README.md) 残りモジュールのカード着手（各3本） | 教育設計 | YYYY-MM-DD | - | 各トラックで最低3カード埋め、テンプレ準拠 | ☐ |
+| T-108 | [DOC-16](16_onboarding/README.md) オンボーディング全文 | 運営/CS | YYYY-MM-DD | - | 受講者/企業担当の双方ガイドにQA 10項目 | ☐ |
+| T-109 | [DOC-20](20_glossary/DOC-20_用語集_v1.0.md) 用語集 初期30語 | 教育/運営 | YYYY-MM-DD | - | 用語/定義/出典の表（30行以上） | ☐ |
+| T-110 | [DOC-06](06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md) quizzes/practicals サンプル2本ずつ | 教育設計 | YYYY-MM-DD | T-012 | 小テスト2本、実技30分課題2本、採点例あり | ☐ |
+| T-111 | 相互リンクの整備（上流/下流） | 全体 | YYYY-MM-DD | - | [DOC-01](01_service-overview/DOC-01_サービス全体像_v1.0.md)〜14の末尾に上流/下流リンク、リンク切れ0 | ☐ |
 
 ---
 
@@ -77,7 +77,7 @@
 | T-203 | ドキュメントリンクチェッカー（任意） | リポ管理 | - | - | GitHub Actions or ローカルでのリンク検証手順書 | ☐ |
 | T-204 | 画像・図版の差し替え（assets/） | 広報/運営 | - | - | 主要ページに図1点以上、ライセンス表記OK | ☐ |
 | T-205 | 事例テンプレ（匿名）作成 | 営業 | - | T-106 | Before/Afterグラフ・証跡例の骨子 | ☐ |
-| T-206 | データスキーマ（DOC-18）精緻化 | データ/運営 | - | T-101/T-102 | KPI集計用のER/DDL、欠損規約 | ☐ |
+| T-206 | データスキーマ（[DOC-18](18_data-schema/DOC-18_データスキーマ_v1.0.yaml)）精緻化 | データ/運営 | - | T-101/T-102 | KPI集計用のER/DDL、欠損規約 | ☐ |
 | T-207 | スタイルガイドのLintルール化（任意） | リポ管理 | - | - | 見出し/表/コードブロックのLint設定文書 | ☐ |
 | T-208 | v1.0 Freeze準備（CHANGELOG/タグ） | 事業/リポ管理 | - | M0〜M5 | CHANGELOG整理、`v1.0.0` タグ付与の手順書 | ☐ |
 

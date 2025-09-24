@@ -24,5 +24,5 @@ tags: [営業, 契約]
 ## 6. 交渉FAQ
 
 ---
-**上流**：DOC-01, DOC-07  
-**下流**：DOC-12, 契約テンプレ
+**上流**：[DOC-01](../01_service-overview/DOC-01_サービス全体像_v1.0.md), [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md)  
+**下流**：[DOC-12](../12_gtm/DOC-12_GTM_営業資料_v1.0.md), 契約テンプレ

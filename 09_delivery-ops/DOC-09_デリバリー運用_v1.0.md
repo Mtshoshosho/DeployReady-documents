@@ -24,5 +24,5 @@ tags: [運用]
 ## 6. SOP（flows/*.mmd）
 
 ---
-**上流**：DOC-02, DOC-05, DOC-06  
-**下流**：DOC-16, DOC-07
+**上流**：[DOC-02](../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md), [DOC-05](../05_module-cards/README.md), [DOC-06](../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md)  
+**下流**：[DOC-16](../16_onboarding/README.md), [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md)

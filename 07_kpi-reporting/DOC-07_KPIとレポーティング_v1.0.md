@@ -21,8 +21,8 @@ tags: [KPI, レポーティング]
 
 ## 5. 閾値超過時のエスカレーション
 
-## 6. データ提供フロー（DOC-18連携）
+## 6. データ提供フロー（[DOC-18](../18_data-schema/DOC-18_データスキーマ_v1.0.yaml)連携）
 
 ---
-**上流**：DOC-06, DOC-18, DOC-19  
-**下流**：DOC-12, 経営レポート
+**上流**：[DOC-06](../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md), [DOC-18](../18_data-schema/DOC-18_データスキーマ_v1.0.yaml), [DOC-19](../19_readiness-index/DOC-19_ReadinessIndex仕様_v1.0.md)  
+**下流**：[DOC-12](../12_gtm/DOC-12_GTM_営業資料_v1.0.md), 経営レポート
