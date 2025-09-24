@@ -67,3 +67,7 @@ downstream: [DOC-02, DOC-08, DOC-12, DOC-07, DOC-09, DOC-10, DOC-11]
 
 ## 14. 参照
 - [DOC-02](../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md) / [DOC-03](../03_course-dag/DOC-03_コースDAG_依存関係図_v1.0.md) / [DOC-06](../06_assessment-rubric/DOC-06_評価とルーブリック_v1.0.md) / [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md) / [DOC-08](../08_pricing-contract/DOC-08_価格と契約_v1.0.md) / [DOC-09](../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md) / [DOC-11](../11_poc-pack/DOC-11_PoCパック_v1.0.md)
+
+---
+**上流**：なし（起点ドキュメント）  
+**下流**：[DOC-02](../02_product-curriculum/DOC-02_プロダクトとカリキュラム体系_v1.0.md), [DOC-07](../07_kpi-reporting/DOC-07_KPIとレポーティング_v1.0.md), [DOC-08](../08_pricing-contract/DOC-08_価格と契約_v1.0.md), [DOC-09](../09_delivery-ops/DOC-09_デリバリー運用_v1.0.md), [DOC-10](../10_governance-security/DOC-10_ガバナンスとセキュリティ_v1.0.md), [DOC-11](../11_poc-pack/DOC-11_PoCパック_v1.0.md), [DOC-12](../12_gtm/DOC-12_GTM_営業資料_v1.0.md)
