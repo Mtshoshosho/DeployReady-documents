@@ -3,67 +3,67 @@ START((START)) --> A1
 
 %% Layer A
 subgraph A
-  A1[ITSMライトと報連相]
-  A2[CLI と Logs]
-  A3[Git/GitHub 基礎]
-  A4[NW/HTTP 一次切り分け]
-  A5[ドキュメントとコミュニケーション]
-  A6[Office 自動化ミニ]
-  A7[AI 活用ガイドライン]
+  A1["ITSMライトと報連相"]
+  A2["CLI と Logs"]
+  A3["Git/GitHub 基礎"]
+  A4["NW/HTTP 一次切り分け"]
+  A5["ドキュメントとコミュニケーション"]
+  A6["Office 自動化ミニ"]
+  A7["AI 活用ガイドライン"]
 end
 
 %% Layer B: OPS
 subgraph BOPS
-  O1[O1 Linux 運用]
-  O2[O2 監視/可観測性の読み方]
-  O3[O3 Windows と PowerShell]
+  O1["O1 Linux 運用"]
+  O2["O2 監視/可観測性の読み方"]
+  O3["O3 Windows と PowerShell"]
 end
 
 %% Layer B: DEV
 subgraph BDEV
-  D1[D1 HTTP/REST と API ツール]
-  D2[D2 Front 基礎 (HTML/CSS/TS)]
-  D3[D3 Backend 基礎 (TS+Express)]
-  D4[D4 Data と SQL]
-  D5[D5 認証の最小実装]
+  D1["D1 HTTP/REST と API ツール"]
+  D2["D2 Front 基礎 (HTML/CSS/TS)"]
+  D3["D3 Backend 基礎 (TS+Express)"]
+  D4["D4 Data と SQL"]
+  D5["D5 認証の最小実装"]
 end
 
 %% Layer B: QA
 subgraph BQA
-  Q1[Q1 テスト設計]
-  Q2[Q2 欠陥票/証跡]
-  Q3[Q3 API 回帰自動化]
+  Q1["Q1 テスト設計"]
+  Q2["Q2 欠陥票/証跡"]
+  Q3["Q3 API 回帰自動化"]
 end
 
 %% Layer B: FIELD
 subgraph BFIELD
-  FS1[FS1 キッティング/資産管理]
-  FS2[FS2 安全手順/配線]
-  FS3[FS3 現地NW確認]
+  FS1["FS1 キッティング/資産管理"]
+  FS2["FS2 安全手順/配線"]
+  FS3["FS3 現地NW確認"]
 end
 
 %% Layer B: PMO
 subgraph BPMO
-  PM1[PM1 チケット/進捗会議の型]
-  PM2[PM2 議事録からToDo化]
+  PM1["PM1 チケット/進捗会議の型"]
+  PM2["PM2 議事録からToDo化"]
 end
 
 %% Layer C: Electives/Scale
 subgraph C
-  C1[C1 SRE-lite]
-  C2[C2 IaC (Terraform 1環境)]
-  C3[C3 CI/CD 拡張]
-  C4[C4 Observability 設計]
-  C5[C5 英語運用]
+  C1["C1 SRE-lite"]
+  C2["C2 IaC (Terraform 1環境)"]
+  C3["C3 CI/CD 拡張"]
+  C4["C4 Observability 設計"]
+  C5["C5 英語運用"]
 end
 
 %% Capstones
 subgraph CAP
-  XOPS[C-OPS Runbook + Monitoring]
-  XDEV[C-DEV Mini CRM]
-  XQA[C-QA Test Suite + Regression]
-  XFIELD[C-FIELD Onsite Deployment]
-  XPMO[C-PMO Weekly Pack]
+  XOPS["C-OPS Runbook + Monitoring"]
+  XDEV["C-DEV Mini CRM"]
+  XQA["C-QA Test Suite + Regression"]
+  XFIELD["C-FIELD Onsite Deployment"]
+  XPMO["C-PMO Weekly Pack"]
 end
 
 OUT((OUTCOME))
